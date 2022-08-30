@@ -1,0 +1,93 @@
+body {
+  background-image: url("../images/board.jpg");
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.game h1 {
+  color: yellow;
+  font-size: 80px;
+}
+.game p {
+  color: white;
+  font-size: 30px;
+}
+.game button {
+  background-color: gold;
+  width: 170px;
+  height: 45px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.game button:hover {
+  background-color: goldenrod;
+}
+@media only screen and (max-width: 300px) and (min-width: 220px) {
+  .game h1 {
+    font-size: 35px;
+  }
+  .game p {
+    font-size: 20px;
+  }
+  .game button {
+    width: 120px;
+    height: 35px;
+  }
+  .game button:hover {
+    width: 120px;
+    height: 35px;
+  }
+  
+}
+@media only screen and (max-width: 400px) and (min-width: 301px){
+    .game h1 {
+        font-size: 55px;
+    }
+    .game p {
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 290px) and (min-width: 200px){
+    .game h1 {
+        font-size: 30px;
+    }
+    .game p {
+        font-size: 20px;
+    }
+
+}
+@media only screen and (max-width: 199px) and (min-width: 160px){
+    .game h1 {
+        font-size: 30px;
+    }
+    .game p {
+        font-size: 14px;
+    }
+    .game button {
+        width: 85px;
+        height: 30px;
+    }
+}
+@media only screen and (max-width: 159px) and (min-width: 100px){
+    .game h1 {
+        font-size: 25px;
+    }
+    .game p {
+        font-size: 10px;
+    }
+    .game button {
+        width: 55px;
+        height: 20px;
+    }
+}
+@media only screen and (max-width: 100px) and (min-width: 0px){
+    .game h1 {
+        font-size: 15px;
+    }
+    .game p {
+        font-size: 10px;
+    }
+    .game button {
+        width: 35px;
+        height: 10px;
+    }
+}
